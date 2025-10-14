@@ -10,7 +10,7 @@
 body {
     background: #FFFFFF;
     color: #181818;
-    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.7;
@@ -23,6 +23,7 @@ main, header, footer {
 }
 
 h1, h2, h3 {
+    font-family: 'Montserrat', 'Source Sans Pro', Arial, sans-serif;
     font-weight: 700;
     letter-spacing: -0.5px;
 }
@@ -69,11 +70,10 @@ header {
 }
 
 header img {
-    width: 108px;
-    height: 108px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 50%;
-    margin-bottom: 1em;
     border: 2.5px solid #E63946;
     background: #F5F5F7;
 }
@@ -115,6 +115,7 @@ footer div {
 }
 
 footer a {
+    color: #181818;
     font-weight: 500;
     font-size: 1rem;
 }
